@@ -2,7 +2,8 @@ def mani(var1,var2):
     # var1="Manivel"
     # var2="Kingn"
     for i in var1:
-        pass
+        if i=="m":
+            continue
     for j in var2:
         pass
     if i==j:
