@@ -1,8 +1,7 @@
-def function(n):
+def M_pattern(n):
+    for row in range(n):
+        for col in range(n):
+            if col==0 or
+            col==n-1 or
+            row == col and row<n/2
 
-    for i in range(1,n):
-        for j in range(1,i+1):
-            print(i,end=" ")
-        print()
-n=int(input("Enter the number"))
-function(n)
