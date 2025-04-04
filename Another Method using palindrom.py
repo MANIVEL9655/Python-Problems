@@ -1,6 +1,3 @@
-from numpy.ma.core import count
-
-
 def pal(n):
     revnum=0
     dup = n
