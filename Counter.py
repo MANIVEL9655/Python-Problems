@@ -1,11 +1,11 @@
-def M_pattern(n):
-    for i in range(n):
-        for j in range(n):
-          
-            if j == 0 or j==n-1 or (i==j and j<=n//2) or (i+j == n-1 and j>=n//2):
-                print("*", end=" ")
-            else:
-                print(" ")
-n=int(input("Enter a Number"))
 
-M_pattern(n)
+def palindrom(n):
+    interger_to_string = str(n)
+    reverse_Str= interger_to_string[::-1]
+    print(reverse_Str)
+    if n==reverse_Str:
+        print("The give number is palindrome")
+    else:
+        print("Not a Palindrome")
+n=int(input("Enter the Number"))
+palindrom(n)
