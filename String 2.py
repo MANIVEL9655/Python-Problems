@@ -1,4 +1,4 @@
-str="Happy Learning"
+str="Happy 325442323 Learning"
 print(str.upper())
 print(str.split(sep='sd-'))
 print(str.title())
